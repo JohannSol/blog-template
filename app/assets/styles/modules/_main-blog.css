@@ -1,0 +1,9 @@
+h1 {
+    font-family: $font-firasans;
+    font-weight: 900;
+    font-size: 40px;
+}
+p {
+    font-family: $font-firasans;
+    
+}

@@ -1,0 +1,32 @@
+.wrapper-with-intrinsic-ratio {
+    position: relative;
+    padding-bottom: 20%;
+    height: 0;
+    margin: .1rem;
+}
+.header {
+    background-image: linear-gradient(to right bottom, rgba(11, 19, 32, 0.705), rgba(86, 195, 179, 0.432)), url('/assets/images/banner.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    position: absolute;
+     background-attachment: fixed;  
+    background-position: top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    
+    &__logo-name {
+    background-image: url('/assets/images/logoname1.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    position: absolute;
+    background-position: left top;
+    top: 0;
+    left: 25px;
+    width: 20%;
+    height: 50%;
+    }   
+    @mixin clearfix;        
+    }

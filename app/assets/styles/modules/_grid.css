@@ -1,0 +1,48 @@
+.row {
+    overflow: hidden;
+    max-width: $grid-width;
+    margin: 0 auto; 
+    &:not(:last-child){
+        margin-bottom: $gutter-x;
+    }
+    @mixin clearfix;   
+}
+
+.col {
+    float: left;
+    &:not(:last-child){
+    margin-right: $gutter-y;   
+    }
+}
+.half {
+    width: 35.375rem;
+    background-color: orange;  
+}
+.third {
+    width: 23.416rem;
+    background: blue;
+}
+.two-3rds {
+    width: 47.333rem;
+    background: yellow;
+}
+.fourth {
+    width: 17.4375rem;
+    background: crimson;
+}
+.three-4ths {
+    width: 53.3125rem;
+    background: orange;
+}
+.main-blog {
+    width: 63%;
+    background: $color-light-1;
+    padding: 40px;
+    min-height:50vh;  
+}
+.side {
+    width: 35.96%;
+}
+
+
+

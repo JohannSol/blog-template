@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: $font-fira;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: $color-text;
+    background-color: $background-2;    
+    height: 100%;    
+ }
+ .container {
+    min-height: 100%;
+    margin: .2rem;
+}
+.main {
+    overflow: auto;
+    padding-bottom: 200px; /* just increase this # if you want more padding at the very bottom */
+} 

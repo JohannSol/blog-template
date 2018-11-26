@@ -1,0 +1,44 @@
+/* Colors */
+
+$color-light-1: #ecf0f1;
+$color-light-2:  #bdc3c7;
+$color-light-3:  #95a5a6;
+$color-dark-1:  #7f8c8d; 
+$color-dark-2:  #34495e; 
+$color-dark-3:  #2c3e50; 
+$color-darkest: #0b1320;     
+$color-text: #363732;           
+$accent-blue: #56c3b3;
+$accent-green: #65aa40;
+$accent-pink: #f86e76;
+$accent-yellow: #f0ec68;
+$background-1: #e9e7db;
+$background-2: #dae6da;
+$background-3: #cee6e8;
+
+$screen-sm-min: 600px;
+
+/* Fonts */
+$font-anton: 'Anton', sans-serif;
+$font-fira: 'Fira Sans Condensed', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-bree: 'Bree Serif', serif;
+$font-merriweather: 'Merriweather Sans', sans-serif;
+$font-merriweather-serif: 'Merriweather', serif;
+$font-norican: 'Norican', cursive;
+$font-yesteryear: 'Yesteryear', cursive;
+$font-montserrat: 'Montserrat', sans-serif;
+$font-rammetto: 'Rammetto One', cursive;
+$font-source: 'Source Sans Pro', sans-serif;
+$font-fjalla: 'Fjalla One', sans-serif;
+$font-firasans:'Fira Sans', sans-serif;
+$font-firasans:'Fira Sans', sans-serif;
+$font-suez:'Suez One', serif;
+$font-imfell: 'IM Fell English', serif;
+$font-libre: 'Libre Baskerville', serif;
+
+/* GRID */
+
+$grid-width: 71.25rem;
+$gutter-y: 0.5rem;
+$gutter-x: 0.5rem;

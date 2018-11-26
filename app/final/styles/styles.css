@@ -1,0 +1,249 @@
+/* Colors */
+
+/* Fonts */
+
+/* GRID */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #363732;
+    background-color: #dae6da;    
+    height: 100%;    
+ }
+
+.container {
+    min-height: 100%;
+    margin: .2rem;
+}
+
+.main {
+    overflow: auto;
+    padding-bottom: 200px; /* just increase this # if you want more padding at the very bottom */
+}
+
+.row {
+    overflow: hidden;
+    max-width: 71.25rem;
+    margin: 0 auto;   
+}
+
+.row:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+
+.row::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col:not(:last-child){
+    margin-right: 0.5rem;   
+    }
+
+.half {
+    width: 35.375rem;
+    background-color: orange;  
+}
+
+.third {
+    width: 23.416rem;
+    background: blue;
+}
+
+.two-3rds {
+    width: 47.333rem;
+    background: yellow;
+}
+
+.fourth {
+    width: 17.4375rem;
+    background: crimson;
+}
+
+.three-4ths {
+    width: 53.3125rem;
+    background: orange;
+}
+
+.main-blog {
+    width: 63%;
+    background: #ecf0f1;
+    padding: 40px;
+    min-height:50vh;  
+}
+
+.side {
+    width: 35.96%;
+}
+
+.wrapper-with-intrinsic-ratio {
+    position: relative;
+    padding-bottom: 20%;
+    height: 0;
+    margin: .1rem;
+}
+
+.header {
+    background-image: linear-gradient(to right bottom, rgba(11, 19, 32, 0.705), rgba(86, 195, 179, 0.432)), url('/assets/images/banner.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    position: absolute;
+     background-attachment: fixed;  
+    background-position: top;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;        
+    }
+
+.header__logo-name {
+    background-image: url('/assets/images/logoname1.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+    position: absolute;
+    background-position: left top;
+    top: 0;
+    left: 25px;
+    width: 20%;
+    height: 50%;
+    }
+
+.header::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+/* display: flex;
+    flex-direction: column; */
+
+.side__search {
+        /* display: inline-block; */
+    background-color: aqua;
+    height: 50px;
+    text-align: center;
+    }
+
+.side__recent-posts {
+        background-color: blueviolet;
+        height: 200px;
+    }
+
+@media screen and (max-width: 700px) {
+
+.side__recent-posts {
+            background-color: black
+    }
+}
+
+.side__categories {
+        background-color: skyblue;
+        height: 300px;
+    }
+
+@media screen and (max-width: 900px) {
+
+.side__categories {
+            background-color: crimson
+    }
+}
+
+/* Change .main padding-bottom and .footer margin-top if  you want to change the footer height. */
+
+.footer {
+    height: 200px;
+    margin-top: -200px;
+    clear: both;
+    background-color: black;
+    z-index: 1;
+}
+
+.footer .copyright {  
+    bottom: 0;
+    text-align: center;
+}
+
+/* -------------- MEDIA QUERIES ------------- */
+
+/* -------------- MEDIA QUERIES ------------- */
+
+/* -------------- MEDIA QUERIES ------------- */
+
+/* @media screen and (max-width: 1200px) {
+    body {
+        background: green;
+        .container {
+            margin: 0;
+        }
+    }   
+} 
+@media screen and (max-width: 900px) {
+    html, body {
+        background: blue;
+        font-size: 16px;
+        line-height: 1.5;
+    }  
+.container {
+        margin: 0;
+    }
+    h1 {
+        font-size: 35px;
+    }
+} 
+@media screen and (max-width: 700px) {
+    html, body {
+        background: red;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .container {
+        margin: 0;
+    }
+    h1 {
+        font-size: 34px;
+    }
+    .row {
+        width: 100%;
+    }
+    .blog-main {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: none;
+    }
+    .blog-side {
+        width: 100%;
+        height: auto;
+        float: none;
+        padding: none;
+    }
+}  */
+
+
+
+
