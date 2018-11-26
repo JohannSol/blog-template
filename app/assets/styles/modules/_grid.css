@@ -1,48 +1,24 @@
-.row {
-    overflow: hidden;
-    max-width: $grid-width;
-    margin: 0 auto; 
-    &:not(:last-child){
-        margin-bottom: $gutter-x;
-    }
-    @mixin clearfix;   
+.container {
+    height: 100%;
+    display: grid;
+    overflow: inherit; 
+    grid-template-columns: 6vw repeat(10, 1fr) 6vw;
+    grid-template-rows: 20vmin auto 20vmin;
+    grid-gap:.5rem;
 }
-
-.col {
-    float: left;
-    &:not(:last-child){
-    margin-right: $gutter-y;   
-    }
+.header {
+    grid-column: 1/-1;
 }
-.half {
-    width: 35.375rem;
-    background-color: orange;  
+.body {
+    background-color:$color-light-2;
+    grid-column: 2/ span 7;
+    height: 1000px;
 }
-.third {
-    width: 23.416rem;
-    background: blue;
+.sidebar {
+    background-color: $color-light-3;
+    grid-column: 9/12;
 }
-.two-3rds {
-    width: 47.333rem;
-    background: yellow;
+.footer {
+    background-color: gray;
+    grid-column: 1/-1;
 }
-.fourth {
-    width: 17.4375rem;
-    background: crimson;
-}
-.three-4ths {
-    width: 53.3125rem;
-    background: orange;
-}
-.main-blog {
-    width: 63%;
-    background: $color-light-1;
-    padding: 40px;
-    min-height:50vh;  
-}
-.side {
-    width: 35.96%;
-}
-
-
-

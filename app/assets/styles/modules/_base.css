@@ -3,20 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-html, body {
-    font-family: $font-fira;
-    font-weight: 400;
-    font-size: 18px;
+html {
+    
+}
+body {
+    height: 100%;
     line-height: 1.7;
     color: $color-text;
-    background-color: $background-2;    
-    height: 100%;    
+    background-color: $color-light-1; 
+    font-family: $font-fira;
+    font-size: 17px;    
+    overflow: auto; 
+    margin: .1rem;
  }
  .container {
-    min-height: 100%;
-    margin: .2rem;
+     background: linear-gradient(to bottom right,rgba(27, 20, 100, 0.658), rgba(6, 81, 221, 0.486), rgba(18, 203, 197, 0.616));
+ }
+
+ div {
+    color: white;
+    border: 2px dotted white; 
 }
-.main {
-    overflow: auto;
-    padding-bottom: 200px; /* just increase this # if you want more padding at the very bottom */
-} 
+

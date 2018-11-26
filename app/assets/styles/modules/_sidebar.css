@@ -1,26 +1,2 @@
-.side {
-    /* display: flex;
-    flex-direction: column; */
-    
-    &__search {
-        /* display: inline-block; */
-    background-color: aqua;
-    height: 50px;
-    text-align: center;
-    }
-    &__recent-posts {
-        background-color: blueviolet;
-        height: 200px;
-        @mixin small-devices {
-            background-color: black;
-        }
-    }
-    &__categories {
-        background-color: skyblue;
-        height: 300px;
-        @mixin medium-devices {
-            background-color: crimson;
-        }
-    }
-}
 
+/* something */
