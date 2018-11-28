@@ -1,0 +1,3 @@
+@define-mixin w-border {
+    border: 1px dashed white;
+}

@@ -1,7 +1,128 @@
 .footer {
-    background-color: $color-dark-3;
-.copyright {  
-    bottom: 0;
-    text-align: center;
+    background-image: url('/assets/images/fabric.png');
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 0px -7px 13px -7px rgba(0,0,0,1);
+   padding-top: 32px;
+    .divider {
+    border-right: 2px groove $color-dark-1;
 }
+    
+    &-subscribe {
+        display: flex;
+        flex-direction: column;
+justify-content: flex-end;
+        .social-icons {
+            /* color: white;  */
+            text-align: center; 
+            ul {
+                display: inline-block;
+               overflow: auto;
+                list-style: none;
+                /* margin: auto; */
+                
+                li {    
+                    float: left;
+                    /* border: 1px solid red; */
+                    margin: 0 10px;
+               
+                    &:not(:last-child){
+                        }
+                        a{
+                            font-family: 'Social Circles';
+                            font-size: 3.125em;
+                            text-decoration: none;
+                            color: #333;
+                            text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+                            transition: all .2s ease-out;
+                            &:hover {
+                                cursor: default;
+                                /* color: $background-2; */
+                                .facebook {
+                                    color: class = #0652DD;
+                                }
+                                .youtube {
+                                    color: class = #EA2027;
+                                }
+                                .pinterest {
+                                    color: class = #ff3838;
+                                }
+                                .twitter {
+                                    color: class =#25CCF7;
+                                }
+                                .instagram {
+                                    color: class =#cd84f1;
+                                }
+                            }
+                        }
+                }
+            }
+        }
+    }
+    &-copyright {
+        grid-column: 1/-1;
+        grid-row: 2/-1;
+        /* keeps the copyright line at the bottom of div */
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
+        p { 
+            text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+            text-align: center;  
+            color: $color-light-3;
+            grid-column: 1/-1;
+            font-size: 12px;
+          
+        }
+    }
+}
+
+.subscribe-form {
+color: white;
+margin: 0 2em;
+margin-bottom: 50px;
+
+    .input-area {
+        height: 40px;
+        border-radius: 3px;
+        overflow: hidden;
+        border: 2px groove $color-dark-1;
+        margin-top: .5rem;
+        input {
+            border: none;
+            height: 100%;
+            width: 75%;
+            float: left;
+            padding-left: .5em;
+            font-size: 17px;
+            color: white;
+        }
+        button {
+            height: 100%;
+            width: 25%;
+            float: left;
+            background-color: $color-dark-3;
+            font-weight: bold;
+            color: $color-light-2;
+            border: none;
+            font-size: 16px;
+            transition: all ease-out .2s;
+            &:hover {
+                color: white;
+                background-color: $color-dark-2;
+            }
+        }
+        
+    }
+    h3 {
+        text-align: center;
+    }
+    span {
+        color: $color-light-3; 
+        font-size: 14px;
+        margin: auto;
+        /* float: right;  */
+    }
 }

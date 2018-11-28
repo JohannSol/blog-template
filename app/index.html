@@ -18,75 +18,200 @@
 </head>
 
 <body>
-    <!-- -------- HEADER ---------------
     <div class="container">
-            <div class="wrapper-with-intrinsic-ratio">
-                    <header class="header">
-                            <div class="wrapper-with-intrinsic-ratio">           
-                               <div class = "header__logo-name">
-                               </div>            
-                            </div>           
-                    </header>
-            </div>   -->
-    <div class="container">
-         <section class="header">
+<!-- ------------------------HEADER----------------- -->
+         <section class="header shadow">
              <div class="head-bground">
+            <!-- ------------------- LOGO ---------- -->
                 <div class="logo">
                     <h1>THE RESOURCE HIVE</h1>
                 </div>
-                
+            <!-- --------------NAVIGATION--------------- -->
                 <div class="navigation">
-                    <ul class="nav">
-                        <li>
-                            <a href="#">
-                                <h3>HOME</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h3>ABOUT</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h3>CONTACT</h3>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <h3>SIGN UP</h3>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="topnav">
+                        <a class="active" href="#home"><h3>HOME</h3></a>
+                        <a href="#news"><h3>ABOUT</h3></a> 
+                        <a href="#contact"><h3>CONTACT</h3></a>
+                        <a href="#about"><h3>SIGN UP</h3></a>
+                      </div>
                 </div>
+                
 
-
+            <!-- --------------SEARCH---------------
                 <div class="search">
                         <div class="search-wrapper">
                                 <form class ="search__form" action="">
-                                    <input class="search__input" type="text" name="s" placeholder="Search">
+                                    <input class="search__input" type="text" name="s" placeholder="Search" autocomplete="off">
+                                    <button class="search__btn"><i class="fas fa-search"></i></button>
+                                </form>
+                        </div>-->
+                <!-- </div> -->
+             </div>
+        </section> 
+
+        <!-- ----------------------- MIDDLE SECTION ------------ -->
+        <section class="body">
+
+<div class="blog">
+    <h1>Welcome to My blog!</h1>
+    <img src="/assets/images/batman.jpg" alt="">
+    <p>meta-data goes here</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus maiores praesentium quos, sequi quam laboriosam, quo at quasi itaque atque perferendis eveniet animi laborum molestiae quaerat! Corporis saepe amet facilis. Ipsam obcaecati nulla ea labore fuga ab quis autem minima non quidem officia, libero reiciendis deleniti temporibus! Fuga, saepe atque?
+    </p>
+    <div>
+        <img src="" alt="">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cupiditate quidem a nam error aspernatur accusantium beatae, odio deserunt perspiciatis quasi esse inventore praesentium optio blanditiis molestiae, enim dolores ad, vitae id. Nesciunt, nobis laudantium!
+            </p>
+    </div>
+    <div>
+            <img src="" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cupiditate quidem a nam error aspernatur accusantium beatae, odio deserunt perspiciatis quasi esse inventore praesentium optio blanditiis molestiae, enim dolores ad, vitae id. Nesciunt, nobis laudantium!
+                </p>
+        </div>
+        <blockquote>
+
+        </blockquote>
+        <div>
+            <img src="" alt="">
+                <blockquote>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis, sit, nobis at quas voluptatem ad aliquid quasi minima perferendis repellat laudantium minus asperiores suscipit!
+                </blockquote>
+        </div>
+        <div>
+                <img src="" alt="">
+                    <blockquote>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis, sit, nobis at quas voluptatem ad aliquid quasi minima perferendis repellat laudantium minus asperiores suscipit!
+                    </blockquote>
+            </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <!-- ----------------- SIDEBAR ------------------ -->
+        <section class="sidebar">
+        <!-- --------------SEARCH--------------- -->
+                <div class="search">
+                        <div class="search-wrapper">
+                                <form class ="search__form" action="">
+                                    <input class="search__input" type="text" name="s" placeholder="Search" autocomplete="off">
                                     <button class="search__btn"><i class="fas fa-search"></i></button>
                                 </form>
                         </div>
                 </div>
+           
+        
+                <div class="recent-posts">
+                  <h2 class = "side-head">RECENT POSTS</h2>
+                   <ul class = "side-ul shadow">
+                    <li>
+                        <div >
+                        <!-- <img src="assets/images/batman-wide.jpg"> -->
+                        <img src="assets/images/300x190.jpg">
 
+                        <a href="#"> 
+                            <h3>Where do Broken Hearts Go?</h3>
+                        </a>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolores corporis necessitatibus? Expedita, incidunt eum?</p>
+                    </div>
+                    </li>
+                    <li>
+                     <div >
+                        <img src="1.jpg" alt="">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi maxime enim quas neque, unde nesciunt iusto, amet!</p>
+                    </div>
+                    </li>
+                </ul>
+                    
+                </div>
 
-             </div>
+                 <div class="categories">
+                  <h2 class = "side-head">CATEGORIES</h2>
+                   <ul class = "side-ul shadow">
+                    <li>
+                       <h2>Trivia</h2>
+                    </li>
+                    <li>
+                       <h2>Entertainment</h2>
+                    </li>
+                    <li>
+                       <h2>Business</h2>
+                    </li>
+                    <li>
+                       <h2>Travel</h2>
+                    </li>
+                    <li>
+                       <h2>Comedy</h2>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="side-card-green">
+                <h3 class="disclaimer">
+                    DISCLAIMER
+                </h3>
+                <p>
+                    This website is supported by Ads.  If you click on the promotions, I will get commissions with no extra charge on you.  thank you.
+                </p>
+            </div>
+           
+
         </section>
-        <section class="body">
-        </section>
-        <section class="sidebar"></section>
-        <section class="footer"></section>
+
+        <!-- ---------------------- FOOTER -------------------- -->
+        <section class="footer"> 
+            <div class = "divider"></div>
+            <div class = "divider"></div>
+            <div class="footer-subscribe">
+                <div class="subscribe-form">
+                    <h3>STAY CONNECTED</h3>
+                    <span>Join our mailing list</span> 
+                    <br>
+                    <form class = "input-area " action="">
+                            <input type="text" name = "subscription" placeholder="">
+                            <button>Subscribe</button>   
+                    </form>
+                </div>
+             <div class="social-icons">
+                <ul class = "">
+                    
+                    <li href="#" class = "facebook"><a >F</a></li>
+                    <li><a href="#" class = "youtube">Y</a></li>
+                    <li><a href="#" class = "instagram">I</a></li>
+                    <li><a href="#"class = "google">G</a></li>
+                    <li><a href="#" class = "twitter">T</a></li>
+                    
+                </ul>
+
+            </div>    
+        </div>
+       
+
+    <!-- <div></div> -->
+    <div class="footer-copyright">
+        <p>
+                &copy; 2018 theresourcehive.com All Rights Reserved
+        </p>   
     </div>
+<!-- </div> -->
 
-
-    <!-- ---------------- MAIN BLOG -------------    -->
-
-    </div> <!-- ----- end of main blog row ------ -->
-    </div> <!-- ----- end of container ------ -->
-
-    <!-- --------------------- FOOTER -------------------- -->
-
+</section>
+</div> <!-- --------------END OF CONTAINER --------------- -->
 </body>
 
 </html>

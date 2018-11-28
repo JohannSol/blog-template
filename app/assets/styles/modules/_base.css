@@ -11,17 +11,23 @@ body {
     line-height: 1.7;
     color: $color-text;
     background-color: $color-light-1; 
-    font-family: $font-fira;
+    font-family: $font-merriweather;
     font-size: 17px;    
     overflow: auto; 
     margin: .1rem;
  }
  .container {
-     background: linear-gradient(to bottom right,rgba(27, 20, 100, 0.658), rgba(6, 81, 221, 0.486), rgba(18, 203, 197, 0.616));
+     background: $background-2;
  }
+ @font-face {
+    font-family: 'Social Circles';
+    src: url('/assets/images/icons/Social Circles.otf');
+  }
+  @font-face {
+    font-family: 'Social Color Pro';
+    src: url('/assets/fonts/Social Color Pro.otf');
+  }
 
- div {
-    color: white;
-    border: 2px dotted white; 
-}
+
+
 
