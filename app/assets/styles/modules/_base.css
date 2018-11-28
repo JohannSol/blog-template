@@ -10,14 +10,14 @@ body {
     height: 100%;
     line-height: 1.7;
     color: $color-text;
-    background-color: $color-light-1; 
+
     font-family: $font-merriweather;
     font-size: 17px;    
     overflow: auto; 
     margin: .1rem;
  }
  .container {
-     background: $background-2;
+     background: #d1d8e0;
  }
  @font-face {
     font-family: 'Social Circles';
